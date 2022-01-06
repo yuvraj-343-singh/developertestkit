@@ -18,11 +18,11 @@ if ($result->num_rows > 0) {
     <section class="wrapper">
         <div class="container">
             <div class="row">
-              <div class="col-5 sidebar">
+              <div class="col-md-5 sidebar">
                 <?php include('sidebar.php'); ?>
               </div>
 
-              <div class="col-7 main-section">
+              <div class="col-md-7 main-section">
                 <div class="row">
                   <div class="col-12 "><div class="mb-5 news">NEWS</div></div>
                   

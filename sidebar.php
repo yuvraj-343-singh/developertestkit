@@ -1,4 +1,4 @@
-<div class="pe-5">
+<div class="pe-lg-5 px-2">
     <div class="title">
     <img src="assets/images/logo.png" class="w-100" alt="">
     </div>

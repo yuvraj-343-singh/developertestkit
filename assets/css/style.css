@@ -97,3 +97,20 @@ body {
     object-fit: cover;
 }
 
+.main-section .footer a {
+    width: 137px!important;
+    margin-bottom: 0.5rem;
+}
+
+.main-section .footer a button {
+    width:100%;
+}
+
+@media (max-width:768px) {
+    .wrapper {
+        margin-top: 20px
+    }
+    .sidebar .footer {
+        margin-top: 0px;
+    }
+}

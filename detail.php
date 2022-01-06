@@ -28,11 +28,11 @@ if ($result->num_rows > 0) {
     <section class="wrapper">
         <div class="container">
             <div class="row">
-              <div class="col-5 sidebar">
+              <div class="col-md-5 sidebar">
                 <?php include('sidebar.php'); ?>
               </div>
 
-              <div class="col-7 main-section">
+              <div class="col-md-7 main-section">
                 <div class="row">
                   <div class="col-12 "><div class="mb-5 news">NEWS</div></div>
                   
@@ -47,16 +47,26 @@ if ($result->num_rows > 0) {
                     </div>
                   <?php } ?>
 
-                  <div class="col- mb-3">
+                  <div class="col-12 mb-3">
                     <div style="height: 2px; background-color: #cccccc; " class="col-9"></div>
                   </div>
 
-                  <div class="col-12 d-flex mb-3" style="justify-content: space-around;">
-                    <a href="https://google.com" onclick="return confirm('Are you sure you want to leave the page?')" ><button class="btn btn-primary ps-4 pe-5 rounded"><i class="fa fa-facebook ms-2 me-3"></i>Share</button></a>
-                    <a href="https://google.com" onclick="return confirm('Are you sure you want to leave the page?')" ><button class="btn btn-info text-white ps-4 pe-5 rounded"><i class="fa fa-twitter ms-2 me-3"></i>Tweet</button></a>
-                    <a href="https://google.com" onclick="return confirm('Are you sure you want to leave the page?')" ><button class="btn btn-danger text-white ps-4 pe-5 rounded"><i class="fa fa-pinterest ms-2 me-3"></i>Pin</button></a>
-                    <a href="https://google.com" onclick="return confirm('Are you sure you want to leave the page?')" ><button class="btn text-white ps-4 pe-5 rounded" style="background-color: #7e7e7e;"><i class="fa fa-envelope ms-2 me-3"></i>Email</button></a>
-                    <a href="https://google.com" onclick="return confirm('Are you sure you want to leave the page?')" ><button class="btn text-white ps-4 pe-5 rounded" style="background-color: #95d140;"><i class="fa fa-share-alt ms-2 me-3"></i>Email</button></a>
+                  <div class="col-12 row g-2 mb-3 footer">
+                    <a href="https://google.com"  onclick="return confirm('Are you sure you want to leave the page?')" >
+                      <button class="btn btn-primary px-3 rounded"><i class="fa fa-facebook  me-3"></i>Share</button>
+                    </a>
+                    <a href="https://google.com"  onclick="return confirm('Are you sure you want to leave the page?')" >
+                      <button class="btn btn-info text-white px-3 rounded"><i class="fa fa-twitter  me-3"></i>Tweet</button>
+                    </a>
+                    <a href="https://google.com"  onclick="return confirm('Are you sure you want to leave the page?')" >
+                      <button class="btn btn-danger text-white px-3 rounded"><i class="fa fa-pinterest  me-3"></i>Pin</button>
+                    </a>
+                    <a href="https://google.com"  onclick="return confirm('Are you sure you want to leave the page?')" >
+                      <button class="btn text-white px-3 rounded" style="background-color: #7e7e7e;"><i class="fa fa-envelope  me-3"></i>Email</button>
+                    </a>
+                    <a href="https://google.com"  onclick="return confirm('Are you sure you want to leave the page?')" >
+                      <button class="btn text-white px-3 rounded" style="background-color: #95d140;"><i class="fa fa-share-alt me-3"></i>Email</button>
+                    </a>
                   </div>
                 </div>
               </div>
